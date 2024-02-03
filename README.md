@@ -1,1 +1,2 @@
 # teorinfo
+# hi im nikita
