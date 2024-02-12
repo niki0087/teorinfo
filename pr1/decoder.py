@@ -7,5 +7,5 @@ def decoder(morsecode):
     for item in morsecode_list:
         for key, value in morse_code.items():
             if item == value:
-                decoded += key
+                decoded += key + " "
     return decoded
