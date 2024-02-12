@@ -1,6 +1,4 @@
 from pr1.main import morse_code
-from pr1.coder import coder
-from pr1.decoder import decoder
 
 def main():
     while True:

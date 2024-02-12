@@ -1,4 +1,4 @@
-from pr1.main import morse_code
+
 def decoder(morsecode):
     decoded = ''
     morsecode_list = morsecode.split(' ')

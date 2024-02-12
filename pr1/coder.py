@@ -1,4 +1,4 @@
-from pr1.main import morse_code
+
 def coder(text):
     encoded = ''
     for char in text.upper():

@@ -43,3 +43,5 @@ coder ()
 from pr1.decoder import decoder
 decoder ()
 
+from pr1.output import main
+main ()
