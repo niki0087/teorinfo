@@ -1,11 +1,10 @@
-from pr1.morse import morse_code
-# функция декодирования строки на Азбуке Морзе в строку на Unicode
+from pr1.main import morse_code
 def decoder(morsecode):
     decoded = ''
-    # переделывает строку в типо массив через ковычки где ключи это символы юникод а значения - азбука морзе
     morsecode_list = morsecode.split(' ')
     for item in morsecode_list:
-        for key, value in morse_code.items():
-            if item == value:
-                decoded += key + [" "]
+        if item in morse_code.values():
+            for key, value in morse_code.items():
+                if item == value:
+                    decoded += key
     return decoded
